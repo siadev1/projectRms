@@ -1,0 +1,118 @@
+body{
+    background-color: white;
+    color:#08025f;
+}
+.container{
+    display:flex ;
+}
+
+.form-contain {
+    width: 100%;
+}
+
+.form{
+    width: 500px;
+    margin: 2% auto;
+    padding: 50px 0;
+    /* text-align: center; */
+    /* box-shadow: 0 20px 40px rgb(0, 0, 0); */
+    padding: 1rem;
+    /* background-color:#08025f; */
+    border: #08025f solid 3px;
+    border-radius: 0.5rem;
+}
+::placeholder{
+    color:#08025f;
+}
+input:focus::placeholder{
+    color:transparent;
+}
+input:hover{
+    border:#08025f;
+}
+input:focus{
+    border:#08025f;
+    color: #08025f;
+}
+.inputs{
+    margin: 30px auto;
+    width: 80%;
+    position: relative;
+    color:white;
+    box-shadow: 0 8px 10px -10px rgb(0, 0, 0);
+    color:#08025f;
+    /* border:1px solid #08025f; */
+}
+.inputs input{
+    width: 100%;
+    height: 40px;
+    border:1px solid #08025f;
+    border-radius: 4px;
+    padding: 5px;
+    /* background: #08025f; */
+    
+    /* padding-left: 50px; */
+}
+fieldset{
+    /* text-align: left; */
+    margin: 0 50px;
+    color: #08025f;
+    border:  none;
+}
+.check{
+    margin: 30px auto;
+    width: 80%;
+    position: relative;
+    color:#08025f;
+    box-shadow: 0 8px 10px -10px rgb(0, 0, 0);
+}
+.btn{
+    float: right;
+}
+.gender{
+    margin: 30px auto;
+    width: 80%;
+    position: relative;
+    box-shadow: 0 8px 10px -10px rgb(0, 0, 0);
+}
+span .fa{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+
+}
+
+.show{
+    display: block;
+    /* transform: translateX(-450px);
+    transition: 1s; */
+}
+.hide{
+    display: none;
+
+}
+
+input[type='button'] {
+    background-color: #08025f ;
+    border-radius: 4px;
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+
+}
+input[type='submit'] {
+    background-color: #08025f ;
+    border-radius: 4px;
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+
+}
+input[type='reset'] {
+    background-color: #08025f ;
+    border-radius: 4px;
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+          <!-- note that this page will be dynamic, it will be based on the item the user click from the item.html page -->
+<body>
+    <section id="issues-overview">
+        <div class="container bg-white pt-5">
+            <div class="row">
+              <div class="col-md-8">
+                <div class="row">
+                  <div class="col-md-4 h-auto">
+                    <div class="image">
+                      <img src="./img/arrows-out-cardinal-fill-svgrepo-com.svg" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                  <div class="col-md-8 fs-5">
+                    <p>Overview Item1 </p>
+                  </div>
+                </div>
+              </div>
+                <div class="col-md-4">
+                <div class="row">
+                  <div class="input-group input-group-sm"> 
+                    <input type="text" class="form-control rounded-pill" id="myInput" onkeyup="myFunction()" aria-label="Sizing example input" placeholder="search data" aria-describedby="inputGroup-sizing-sm">
+                    <span><div class="dot-0">
+                      <div class="click-s"></div>
+                      <div class="click-s"></div>
+                      <div class="click-s"></div>
+                    </div></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="table-responsive">
+              <table class="table" id="myTable">
+                <thead>
+                  <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Amounts Paid</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>sia</td>
+                    <td>13000</td>
+                    <td>collected</td>
+                    <td><button class="btn btn-success">collected</button><br><button class="btn btn-success my-1">paid</button></td>
+                  </tr>
+                  <tr>
+                    <td>boom</td>
+                    <td>13000</td>
+                    <td>not collected</td>
+                    
+                    <td><button class="btn btn-danger">Not collected</button><br><button class="btn btn-danger my-1">Not paid</button></td>
+                    
+                  </tr>
+                  <!-- <tr>
+                    <td>name</td>
+                    <td>name</td>
+                    <td>name</td>
+                    <td>name</td>
+                    <td>name</td>
+                    <td>name</td>
+                    <td>name</td>
+                    <td>name</td>
+                  </tr>
+                  <tr>
+                    <td>name</td>
+                    <td>name</td>
+                    <td>name</td>
+                    <td>name</td>
+                    <td>name</td>
+                    <td>name</td>
+                    <td>name</td>
+                    <td>name</td>
+                  </tr> -->
+                  
+                </tbody>
+              </table>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
