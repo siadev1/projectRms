@@ -1,7 +1,7 @@
 from django.shortcuts import render,redirect
 from .forms import Register
 from django.contrib.auth.models import User
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate, login,logout
 from .forms import StudentForm
 from .forms import ItemForm
 from .models import Students
@@ -129,4 +129,8 @@ def UserSignUp(request):
     # return render(request, 'signup.html', {'form': form})
         context = {"form":form}
     return render(request, 'registration/register.html',context)
-# def logout(request):
+
+
+def logoutUser(request):
+    logout(request)
+    return redirect('login')

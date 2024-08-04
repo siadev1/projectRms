@@ -274,11 +274,11 @@
         <div class="dropdown-divider mb-0"></div>
     </li>
     <li>
-        <form method="post" action="{% url 'logout' %}">
+        <!-- <form method="post" action="{% url 'logout' %}">
             {% csrf_token %}
             <button class="dropdown-item" type="submit"><i class='bx bx-log-out-circle'></i><span>Logout</span></button>
-        </form>
-        <!-- <a class="dropdown-item" type="post" href="{% url 'logout' %}"><i class='bx bx-log-out-circle'></i><span>Logout</span></a> -->
+        </form> -->
+        <a class="dropdown-item" type="post" href="{% url 'loogout' %}"><i class='bx bx-log-out-circle'></i><span>Logout</span></a>
     </li>
 </ul>
             </div>

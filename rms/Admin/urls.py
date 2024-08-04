@@ -13,7 +13,7 @@ urlpatterns=[
     path("all_item",views.all_item, name='all_item'),
     path("payment_item/<item>",views.payment_item, name='payment_item'),
     path("student_item/<studID>",views.student_item, name='student_item'),
-    # path("logout",views.logout, name='logout')
+    path("logout",views.logoutUser, name='loogout')
 
 ]
    
